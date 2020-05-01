@@ -1,5 +1,10 @@
-import {QueryCtrl} from 'app/plugins/sdk';
-import './css/query-editor.css!'
+import {loadPluginCss} from 'grafana/app/plugins/sdk';
+import {QueryCtrl} from 'grafana/app/plugins/sdk';
+
+loadPluginCss({
+  dark: 'plugins/bosun-grafana-app/css/query-editor.css',
+  light: 'plugins/bosun-grafana-app/css/query-editor.css',
+})
 
 export class BosunDatasourceQueryCtrl extends QueryCtrl {
 

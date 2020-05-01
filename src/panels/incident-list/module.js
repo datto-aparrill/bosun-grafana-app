@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import moment from 'moment';
-import { MetricsPanelCtrl } from 'app/plugins/sdk';
+import { MetricsPanelCtrl } from 'grafana/app/plugins/sdk';
 import { bosunIncidentListPanelEditor } from './editor';
 
 var statusMap = {

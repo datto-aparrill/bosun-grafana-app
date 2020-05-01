@@ -1,4 +1,4 @@
-import TableModel from 'app/core/table_model';
+import TableModel from 'grafana/app/core/table_model';
 import moment from 'moment';
 
 export class BosunDatasource {
