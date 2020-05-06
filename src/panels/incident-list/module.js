@@ -11,6 +11,7 @@ var statusMap = {
 }
 
 export class BosunIncidentListCtrl extends MetricsPanelCtrl {
+    /** @ngInject */
     constructor($scope, $injector, $rootScope, $window, datasourceSrv, templateSrv, utilSrv, backendSrv, dashboardSrv) {
         super($scope, $injector);
         var self = this;

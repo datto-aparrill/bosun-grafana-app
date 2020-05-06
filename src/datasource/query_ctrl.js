@@ -8,11 +8,11 @@ loadPluginCss({
 
 export class BosunDatasourceQueryCtrl extends QueryCtrl {
 
-  constructor($scope, $injector, uiSegmentSrv) {
+  /** @ngInject */
+  constructor($scope, $injector) {
     super($scope, $injector);
     this.scope = $scope;
     this.queryHelper = {};
-    this.uiSegmentSrv = uiSegmentSrv;
     this.target.expandHelper = 0;
     this.target.target = this.target.target || 'Bosun Query';
     this.suggestMetrics = this.suggestMetrics.bind(this);

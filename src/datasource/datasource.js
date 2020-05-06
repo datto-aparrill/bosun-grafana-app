@@ -2,6 +2,7 @@ import TableModel from 'grafana/app/core/table_model';
 import moment from 'moment';
 
 export class BosunDatasource {
+    /** @ngInject */
     constructor(instanceSettings, $q, backendSrv, templateSrv, $sce, $rootScope) {
         this.annotateUrl = instanceSettings.jsonData.annotateUrl;
         this.type = instanceSettings.type;

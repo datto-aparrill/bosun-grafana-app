@@ -1,4 +1,5 @@
 class BosunIncidentListPanelEditorCtrl {
+    /** @ngInject */
     constructor($scope, $rootScope, $q, uiSegmentSrv, datasourceSrv, templateSrv) {
         $scope.editor = this;
         this.panelCtrl = $scope.ctrl;
