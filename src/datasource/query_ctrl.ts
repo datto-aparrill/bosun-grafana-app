@@ -1,11 +1,5 @@
-import { loadPluginCss } from 'grafana/app/plugins/sdk';
 import { QueryCtrl } from 'grafana/app/plugins/sdk';
 import _ from 'underscore';
-
-loadPluginCss({
-  dark: 'plugins/bosun-grafana-app/css/query-editor.css',
-  light: 'plugins/bosun-grafana-app/css/query-editor.css',
-});
 
 export class BosunDatasourceQueryCtrl extends QueryCtrl {
   static templateUrl = 'datasource/partials/query.editor.html';
