@@ -1,7 +1,7 @@
 import TableModel from 'grafana/app/core/table_model';
 import { DataQueryResponse, DataSourceApi } from '@grafana/data';
 import moment from 'moment-timezone';
-import _ from 'underscore';
+import _ from 'lodash';
 
 function toQueryString(kv: object): string {
   var queries: string[] = [];

@@ -1,5 +1,5 @@
 import { QueryCtrl } from 'grafana/app/plugins/sdk';
-import _ from 'underscore';
+import _ from 'lodash';
 
 export class BosunDatasourceQueryCtrl extends QueryCtrl {
   static templateUrl = 'datasource/partials/query.editor.html';
